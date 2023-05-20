@@ -1,3 +1,12 @@
+From 081dc3930cae42ab3b128e74d0de43a988da45f2 Mon Sep 17 00:00:00 2001
+From: JuanMiguelBG <bacojmbg@gmail.com>
+Date: Sat, 20 May 2023 10:52:22 +0200
+Subject: [PATCH] Skip examples compilation
+
+---
+ Makefile.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 diff --git a/Makefile.in b/Makefile.in
 index 3536db1..fd14ee7 100644
 --- a/Makefile.in
@@ -11,3 +20,6 @@ index 3536db1..fd14ee7 100644
  SUBDIRS = po po-properties $(SRC_SUBDIRS) docs m4macros win32
  ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
  MAINTAINERCLEANFILES = \
+-- 
+2.25.1
+
