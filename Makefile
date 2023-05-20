@@ -637,7 +637,7 @@ STRIP_FIND_COMMON_CMD = \
 STRIP_FIND_CMD = \
 	$(STRIP_FIND_COMMON_CMD) \
 	-type f \( -perm /111 -o -name '*.so*' \) \
-	-not \( $(call findfileclauses,libpthread*.so* ld-*.so* *.ko) \) \
+	-not \( $(call findfileclauses,libpthread*.so* ld-*.so* *.ko dolphin-triforce) \) \
 	-print0
 
 # Special stripping (only debugging symbols) for libpthread and ld-*.so.
